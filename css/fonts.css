@@ -1,0 +1,377 @@
+@font-face {
+    font-family: 'Barlow';
+    src: url('/source/fonts/Barlow-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('/source/fonts/Barlow-BlackItalic.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('/source/fonts/Barlow-Bold.otf') format('opentype');
+    font-weight: 700; 
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('/source/fonts/Barlow-BoldItalic.otf') format('opentype');
+    font-weight: 700; 
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('/source/fonts/Barlow-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('/source/fonts/Barlow-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('/source/fonts/Barlow-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('/source/fonts/Barlow-ExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('/source/fonts/Barlow-Italic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('/source/fonts/Barlow-Light.otf') format('opentype');
+    font-weight: 300; 
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('/source/fonts/Barlow-LightItalic.otf') format('opentype');
+    font-weight: 300; 
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('/source/fonts/Barlow-Medium.otf') format('opentype');
+    font-weight: 500; 
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('/source/fonts/Barlow-MediumItalic.otf') format('opentype');
+    font-weight: 500; 
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('/source/fonts/Barlow-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('/source/fonts/Barlow-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('/source/fonts/Barlow-SemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('/source/fonts/Barlow-Thin.otf') format('opentype');
+    font-weight: 100; 
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('/source/fonts/Barlow-ThinItalic.otf') format('opentype');
+    font-weight: 100; 
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Barlow Condensed';
+    src: url('/source/fonts/BarlowCondensed-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow Condensed';
+    src: url('/source/fonts/barlowcondensed-blackitalic.otf') format('opentype');
+    font-weight: 900; 
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Barlow Condensed';
+    src: url('/source/fonts/BarlowCondensed-Bold.otf') format('opentype');
+    font-weight: bold; 
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow Condensed';
+    src: url('/source/fonts/BarlowCondensed-BoldItalic.otf') format('opentype');
+    font-weight: bold; 
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Barlow Condensed';
+    src: url('/source/fonts/BarlowCondensed-ExtraBold.otf') format('opentype');
+    font-weight: 800; 
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow Condensed';
+    src: url('/source/fonts/BarlowCondensed-ExtraBoldItalic.otf') format('opentype');
+    font-weight: 800; 
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Barlow Condensed';
+    src: url('/source/fonts/BarlowCondensed-ExtraLight.otf') format('opentype');
+    font-weight: 200; 
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow Condensed';
+    src: url('/source/fonts/BarlowCondensed-ExtraLightItalic.otf') format('opentype');
+    font-weight: 200; 
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Barlow Condensed';
+    src: url('/source/fonts/BarlowCondensed-Italic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Barlow Condensed';
+    src: url('/source/fonts/BarlowCondensed-Light.otf') format('opentype');
+    font-weight: 300; 
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow Condensed';
+    src: url('/source/fonts/BarlowCondensed-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Barlow Condensed';
+    src: url('/source/fonts/BarlowCondensed-Medium.otf') format('opentype');
+    font-weight: 500; 
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow Condensed';
+    src: url('/source/fonts/BarlowCondensed-MediumItalic.otf') format('opentype');
+    font-weight: 500; 
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Barlow Condensed';
+    src: url('/source/fonts/BarlowCondensed-Regular.otf') format('opentype');
+    font-weight: normal; 
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow Condensed';
+    src: url('/source/fonts/BarlowCondensed-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow Condensed';
+    src: url('/source/fonts/BarlowCondensed-SemiBoldItalic.otf') format('opentype');
+    font-weight: 600; 
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Barlow Condensed';
+    src: url('/source/fonts/BarlowCondensed-Thin.otf') format('opentype');
+    font-weight: 100; 
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow Condensed';
+    src: url('/source/fonts/BarlowCondensed-ThinItalic.otf') format('opentype');
+    font-weight: 100; 
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url('/source/fonts/BarlowSemiCondensed-Black.otf') format('opentype');
+    font-weight: 900; 
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url('/source/fonts/BarlowSemiCondensed-BlackItalic.otf') format('opentype');
+    font-weight: 900; 
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url('/source/fonts/BarlowSemiCondensed-Bold.otf') format('opentype');
+    font-weight: bold; 
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url('/source/fonts/BarlowSemiCondensed-BoldItalic.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url('/source/fonts/barlowsemicondensed-extrabold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url('/source/fonts/BarlowSemiCondensed-ExtraBoldItalic.otf') format('opentype');
+    font-weight: 800; 
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url('/source/fonts/BarlowSemiCondensed-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url('/source/fonts/barlowsemicondensed-extralightitalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url('/source/fonts/barlowsemicondensed-italic.otf') format('opentype');
+    font-weight: normal; 
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url('/source/fonts/barlowsemicondensed-light.otf') format('opentype');
+    font-weight: 300; 
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url('/source/fonts/BarlowSemiCondensed-LightItalic.otf') format('opentype');
+    font-weight: 300; 
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url('/source/fonts/BarlowSemiCondensed-Medium.otf') format('opentype');
+    font-weight: 500; 
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url('/source/fonts/barlowsemicondensed-mediumitalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url('/source/fonts/BarlowSemiCondensed-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url('/source/fonts/BarlowSemiCondensed-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url('/source/fonts/BarlowSemiCondensed-SemiBoldItalic.otf') format('opentype');
+    font-weight: 600; 
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url('/source/fonts/barlowsemicondensed-thin.otf') format('opentype');
+    font-weight: 100; 
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url('/source/fonts/barlowsemicondensed-thinitalic.otf') format('opentype');
+    font-weight: 100; 
+    font-style: italic;
+}
