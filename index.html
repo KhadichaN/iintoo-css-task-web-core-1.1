@@ -1,15 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Iintoo Signup Page</title>
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/main.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <main>
+      <div class="branding-section">
+        <img src="source/img/logo.svg" alt="logo" />
+      </div>
+      <div class="registration-section">
+        <div class="social-login-container">
+          <div class="social-login-text">
+            <h1>Get iintoo it today</h1>
+            <div>There is no charge or obligation upon registration</div>
+          </div>
+          <div class="social-login-buttons">
+            <button onclick="loginWithFacebook()">
+              Вход с помощью Facebook
+            </button>
+            <button onclick="loginWithLinkedIn()">
+              Вход с помощью LinkedIn
+            </button>
+          </div>
+        </div>
+        <div class="divider">
+          <span class="divider-text">OR</span>
+        </div>
+        <div>
+          <form id="registrationForm" autocomplete>
+            <label for="email">Email</label>
+            <input
+              id="emailField"
+              type="email"
+              id="email"
+              placeholder="example@mail.com"
+            />
+
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" placeholder="Phone number" />
+
+            <fieldset>
+              <legend>What type of investor are you?</legend>
+              <div>Select the type of investor you are below.</div>
+              <label>
+                <input
+                  type="radio"
+                  name="investor-type"
+                  value="individual"
+                  checked
+                />
+                Individual
+              </label>
+              <label>
+                <input type="radio" name="investor-type" value="business" />
+                Business
+              </label>
+              <label>
+                <input type="radio" name="investor-type" value="ira" />
+                IRA
+              </label>
+              <label>
+                <input type="radio" name="investor-type" value="trust" />
+                Trust
+              </label>
+            </fieldset>
+
+            <div class="investor-description">
+              <div id="individual-investor">
+                I am a natural person investing on my own behalf as a sole
+                owner, joint tenant, or tenant in common
+              </div>
+              <div id="business-investor">
+                I represent a legal entity or firm, investing through company
+                resources for business growth and opportunities.
+              </div>
+              <div id="ira-investor">
+                I am investing through an Individual Retirement Account to
+                prepare for retirement while gaining tax advantages.
+              </div>
+              <div id="trust-investor">
+                I am managing investments on behalf of a trust to maintain and
+                grow the trust's assets for beneficiaries.
+              </div>
+            </div>
+
+            <label class="terms-label">
+              <input type="checkbox" name="terms" />
+              I agree to the terms and receiving notifications from iintoo
+            </label>
+
+            <button onclick="alert('Full terms opened');">
+              View full terms
+            </button>
+
+            <button class="create-account" type="submit">Create Account</button>
+            
+          </form>
+        </div>
+      </div>
+    </main>
+
     <script src="js/login.js"></script>
     <script src="js/main.js"></script>
-</body>
+  </body>
 </html>
