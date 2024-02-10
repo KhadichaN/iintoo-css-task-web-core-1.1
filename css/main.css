@@ -1,0 +1,17 @@
+:root {
+    --background-color: #EFF6FF;
+    --base-text-color: #2A4A5C;
+    --fb-button-color: #255A9B;
+    --in-button-color: #0076B6;
+    --create-button-color: #3698FB;
+    --secondary-text-color: #7B8A92;
+    --descriotion-text-color: #96A5B1;
+}
+
+*,
+body {
+    font-family: 'Barlow', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
