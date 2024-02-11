@@ -29,7 +29,7 @@ main {
 }
 
 .branding-section {
-    background-image: url('/source/img/bg.jpg');
+    background-image: url('../source/img/bg.jpg');
     background-position: top left;
     background-size: cover;
     background-repeat: no-repeat;
