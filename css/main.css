@@ -115,8 +115,12 @@ main {
 
 .input-set {
     width: 45%;
+  border-radius: 4px;
 }
 
+.input-set.active {
+    border-left: 1px solid var(--create-button-color) ;
+}
 .input-label {
     display: block;
     font-family: Arial, sans-serif;

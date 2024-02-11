@@ -19,11 +19,11 @@
             <div>There is no charge or obligation upon registration</div>
           </div>
           <div class="social-login-buttons">
-            <button class="btn btn-facebook" onclick="loginWithFacebook()">
+            <button class="btn btn-facebook" onclick="alert('Welcome, facebook user')">
               <img src="source/img/facebook.svg" alt="" />
               Register with Facebook
             </button>
-            <button class="btn btn-linkedin" onclick="loginWithLinkedIn()">
+            <button class="btn btn-linkedin" onclick="alert('Welcome, linkedin user')">
               <img src="source/img/linkedin.svg" alt="" />
               Register with LinkedIn
             </button>
@@ -47,7 +47,6 @@
                   placeholder="example@mail.com"
                 />
               </div>
-
               <div class="input-set phone">
                 <label class="input-label phone" for="phone"> Phone </label>
                 <input
@@ -89,19 +88,19 @@
             </fieldset>
 
             <div class="investor-description">
-              <div class="active" id="individual-investor">
+              <div class="active" id="individual">
                 I am a natural person investing on my own behalf as a sole
                 owner, joint tenant, or tenant in common
               </div>
-              <div id="business-investor">
+              <div id="business">
                 I represent a legal entity or firm, investing through company
                 resources for business growth and opportunities.
               </div>
-              <div id="ira-investor">
+              <div id="ira">
                 I am investing through an Individual Retirement Account to
                 prepare for retirement while gaining tax advantages.
               </div>
-              <div id="trust-investor">
+              <div id="trust">
                 I am managing investments on behalf of a trust to maintain and
                 grow the trust's assets for beneficiaries.
               </div>
@@ -119,13 +118,11 @@
             </div>
 
 
-            <button class="create-account" type="submit">Create Account</button>
+            <button class="create-account"  onclick="alert('Account created')" type="submit">Create Account</button>
           </form>
         </div>
       </div>
     </main>
-
-    <script src="js/login.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
