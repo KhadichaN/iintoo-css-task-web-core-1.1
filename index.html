@@ -19,58 +19,77 @@
             <div>There is no charge or obligation upon registration</div>
           </div>
           <div class="social-login-buttons">
-            <button onclick="loginWithFacebook()">
-              Вход с помощью Facebook
+            <button class="btn btn-facebook" onclick="loginWithFacebook()">
+              <img src="source/img/facebook.svg" alt="" />
+              Register with Facebook
             </button>
-            <button onclick="loginWithLinkedIn()">
-              Вход с помощью LinkedIn
+            <button class="btn btn-linkedin" onclick="loginWithLinkedIn()">
+              <img src="source/img/linkedin.svg" alt="" />
+              Register with LinkedIn
             </button>
           </div>
         </div>
-        <div class="divider">
-          <span class="divider-text">OR</span>
+        <div class="divider-container">
+          <div class="divider">
+            <span class="divider-text">OR</span>
+          </div>
         </div>
         <div>
-          <form id="registrationForm" autocomplete>
-            <label for="email">Email</label>
-            <input
-              id="emailField"
-              type="email"
-              id="email"
-              placeholder="example@mail.com"
-            />
-
-            <label for="phone">Phone</label>
-            <input type="tel" id="phone" placeholder="Phone number" />
-
-            <fieldset>
-              <legend>What type of investor are you?</legend>
-              <div>Select the type of investor you are below.</div>
-              <label>
+          <form class="registration-form" id="registrationForm" autocomplete>
+            <div class="input-container">
+              <div class="input-set email">
+                <label class="input-label email" for="email"> Email </label>
                 <input
-                  type="radio"
-                  name="investor-type"
-                  value="individual"
-                  checked
+                  class="input-field email"
+                  id="emailField"
+                  type="email"
+                  id="email"
+                  placeholder="example@mail.com"
                 />
-                Individual
-              </label>
-              <label>
-                <input type="radio" name="investor-type" value="business" />
-                Business
-              </label>
-              <label>
-                <input type="radio" name="investor-type" value="ira" />
-                IRA
-              </label>
-              <label>
-                <input type="radio" name="investor-type" value="trust" />
-                Trust
-              </label>
+              </div>
+
+              <div class="input-set phone">
+                <label class="input-label phone" for="phone"> Phone </label>
+                <input
+                  class="input-field phone"
+                  type="tel"
+                  id="phone"
+                  placeholder="Phone number"
+                />
+              </div>
+            </div>
+            <fieldset>
+              <h2>What type of investor are you?</h2>
+              <div class="select-text">
+                Select the type of investor you are below.
+              </div>
+              <div class="investor-radio-container">
+                <label>
+                  <input
+                    type="radio"
+                    name="investor-type"
+                    value="individual"
+                    checked
+                  />
+                  Individual
+                </label>
+                <label>
+                  <input type="radio" name="investor-type" value="business" />
+                  Business
+                </label>
+                <label>
+                  <input type="radio" name="investor-type" value="ira" />
+                  IRA
+                </label>
+                <label>
+                  <input type="radio" name="investor-type" value="trust" />
+                  Trust
+                </label>
+              </div>
             </fieldset>
 
             <div class="investor-description">
-              <div id="individual-investor">
+              <div class="active" id="individual-investor">
                 I am a natural person investing on my own behalf as a sole
                 owner, joint tenant, or tenant in common
               </div>
@@ -88,17 +107,19 @@
               </div>
             </div>
 
-            <label class="terms-label">
-              <input type="checkbox" name="terms" />
-              I agree to the terms and receiving notifications from iintoo
-            </label>
+            <div class="terms-container">
+                <label class="terms-label">
+                    <input type="checkbox" name="terms" />
+                    I agree to the terms and receiving notifications from iintoo
+                  </label>
+      
+                  <a class="terms-button" onclick="alert('Full terms opened');">
+                    View full terms
+                  </a>
+            </div>
 
-            <button onclick="alert('Full terms opened');">
-              View full terms
-            </button>
 
             <button class="create-account" type="submit">Create Account</button>
-            
           </form>
         </div>
       </div>
